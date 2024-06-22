@@ -1,0 +1,128 @@
+// 20240610233811
+// http://localhost:8080/equipment
+
+{
+  "_embedded": {
+    "equipments": [
+      {
+        "equipmentId": 1,
+        "equipmentName": "e 1",
+        "quantity": 2,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/1"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/1"
+          }
+        }
+      },
+      {
+        "equipmentId": 2,
+        "equipmentName": "e 2",
+        "quantity": 3,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/2"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/2"
+          }
+        }
+      },
+      {
+        "equipmentId": 3,
+        "equipmentName": "e 3",
+        "quantity": 4,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/3"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/3"
+          }
+        }
+      },
+      {
+        "equipmentId": 4,
+        "equipmentName": "e 4",
+        "quantity": 5,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/4"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/4"
+          }
+        }
+      },
+      {
+        "equipmentId": 5,
+        "equipmentName": "e 5",
+        "quantity": 8,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/5"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/5"
+          }
+        }
+      },
+      {
+        "equipmentId": 6,
+        "equipmentName": "e 6",
+        "quantity": 9,
+        "purchaseDate": "2024-05-18",
+        "warrantyDate": "2025-05-18",
+        "origin": "vn",
+        "status": "1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/equipment/6"
+          },
+          "equipment": {
+            "href": "http://localhost:8080/equipment/6"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/equipment?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/equipment"
+    },
+    "search": {
+      "href": "http://localhost:8080/equipment/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 6,
+    "totalPages": 1,
+    "number": 0
+  }
+}

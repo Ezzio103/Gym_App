@@ -1,0 +1,71 @@
+// 20240610234952
+// http://localhost:8080/role
+
+{
+  "_embedded": {
+    "roles": [
+      {
+        "roleId": 1,
+        "roleName": "ADMIN",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/role/1"
+          },
+          "role": {
+            "href": "http://localhost:8080/role/1"
+          },
+          "userList": {
+            "href": "http://localhost:8080/role/1/userList"
+          }
+        }
+      },
+      {
+        "roleId": 2,
+        "roleName": "STAFF",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/role/2"
+          },
+          "role": {
+            "href": "http://localhost:8080/role/2"
+          },
+          "userList": {
+            "href": "http://localhost:8080/role/2/userList"
+          }
+        }
+      },
+      {
+        "roleId": 3,
+        "roleName": "USER",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/role/3"
+          },
+          "role": {
+            "href": "http://localhost:8080/role/3"
+          },
+          "userList": {
+            "href": "http://localhost:8080/role/3/userList"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/role?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/role"
+    },
+    "search": {
+      "href": "http://localhost:8080/role/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 3,
+    "totalPages": 1,
+    "number": 0
+  }
+}

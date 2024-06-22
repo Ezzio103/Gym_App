@@ -1,0 +1,9 @@
+/* FeedbackProps.css */
+.item {
+    background-color: #e3faf7;
+    border-radius: 10px;
+    padding: 10px;
+    height: 120px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+  

@@ -1,0 +1,110 @@
+// 20240610234246
+// http://localhost:8080/room
+
+{
+  "_embedded": {
+    "rooms": [
+      {
+        "roomId": 1,
+        "roomName": "phong 1",
+        "quantity": 3,
+        "description": "mo ta 1",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/1"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/1"
+          }
+        }
+      },
+      {
+        "roomId": 2,
+        "roomName": "phong 2",
+        "quantity": 4,
+        "description": "mo ta 2",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/2"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/2"
+          }
+        }
+      },
+      {
+        "roomId": 3,
+        "roomName": "phong 3",
+        "quantity": 6,
+        "description": "mo ta 3",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/3"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/3"
+          }
+        }
+      },
+      {
+        "roomId": 4,
+        "roomName": "phong 4",
+        "quantity": 2,
+        "description": "mo ta 4",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/4"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/4"
+          }
+        }
+      },
+      {
+        "roomId": 5,
+        "roomName": "phong 5",
+        "quantity": 3,
+        "description": "mo ta 5",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/5"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/5"
+          }
+        }
+      },
+      {
+        "roomId": 6,
+        "roomName": "phong 6",
+        "quantity": 5,
+        "description": "mo ta 6",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/room/6"
+          },
+          "room": {
+            "href": "http://localhost:8080/room/6"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/room?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/room"
+    },
+    "search": {
+      "href": "http://localhost:8080/room/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 6,
+    "totalPages": 1,
+    "number": 0
+  }
+}

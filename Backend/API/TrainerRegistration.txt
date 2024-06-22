@@ -1,0 +1,86 @@
+// 20240610234544
+// http://localhost:8080/trainer-registration
+
+{
+  "_embedded": {
+    "trainerRegistrations": [
+      {
+        "registrationId": 1,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-07-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/trainer-registration/1"
+          },
+          "trainerRegistration": {
+            "href": "http://localhost:8080/trainer-registration/1"
+          },
+          "trainer": {
+            "href": "http://localhost:8080/trainer-registration/1/trainer"
+          },
+          "user": {
+            "href": "http://localhost:8080/trainer-registration/1/user"
+          }
+        }
+      },
+      {
+        "registrationId": 2,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-07-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/trainer-registration/2"
+          },
+          "trainerRegistration": {
+            "href": "http://localhost:8080/trainer-registration/2"
+          },
+          "trainer": {
+            "href": "http://localhost:8080/trainer-registration/2/trainer"
+          },
+          "user": {
+            "href": "http://localhost:8080/trainer-registration/2/user"
+          }
+        }
+      },
+      {
+        "registrationId": 3,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-07-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/trainer-registration/3"
+          },
+          "trainerRegistration": {
+            "href": "http://localhost:8080/trainer-registration/3"
+          },
+          "trainer": {
+            "href": "http://localhost:8080/trainer-registration/3/trainer"
+          },
+          "user": {
+            "href": "http://localhost:8080/trainer-registration/3/user"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/trainer-registration?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/trainer-registration"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 3,
+    "totalPages": 1,
+    "number": 0
+  }
+}

@@ -1,0 +1,236 @@
+// 20240610234202
+// http://localhost:8080/pack-registration
+
+{
+  "_embedded": {
+    "packRegistrations": [
+      {
+        "registrationId": 1,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/1"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/1"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/1/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/1/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 2,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/2"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/2"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/2/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/2/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 3,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 2,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/3"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/3"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/3/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/3/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 4,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/4"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/4"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/4/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/4/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 5,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/5"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/5"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/5/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/5/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 6,
+        "registrationDate": "2024-05-18",
+        "expiryDate": "2024-09-18",
+        "status": "1",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/6"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/6"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/6/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/6/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 7,
+        "registrationDate": "2024-05-20",
+        "expiryDate": "2023-06-20",
+        "status": "0",
+        "renewalCount": 0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/7"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/7"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/7/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/7/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 8,
+        "registrationDate": "2024-05-20",
+        "expiryDate": "2024-06-20",
+        "status": "0",
+        "renewalCount": 1,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/8"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/8"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/8/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/8/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 9,
+        "registrationDate": "2024-05-26",
+        "expiryDate": "2024-06-26",
+        "status": "0",
+        "renewalCount": 0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/9"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/9"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/9/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/9/pack"
+          }
+        }
+      },
+      {
+        "registrationId": 10,
+        "registrationDate": "2024-05-26",
+        "expiryDate": "2024-06-26",
+        "status": "0",
+        "renewalCount": 0,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/pack-registration/10"
+          },
+          "packRegistration": {
+            "href": "http://localhost:8080/pack-registration/10"
+          },
+          "user": {
+            "href": "http://localhost:8080/pack-registration/10/user"
+          },
+          "pack": {
+            "href": "http://localhost:8080/pack-registration/10/pack"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/pack-registration?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/pack-registration"
+    },
+    "search": {
+      "href": "http://localhost:8080/pack-registration/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 10,
+    "totalPages": 1,
+    "number": 0
+  }
+}

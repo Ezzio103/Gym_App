@@ -1,0 +1,19 @@
+.banner-container {
+    background-image: url('https://gcs.tripi.vn/public-tripi/tripi-feed/img/474097fWS/anh-nen-gym-cho-desktop_032109148.jpg'); /* Đường dẫn đến ảnh nền của bạn */
+    background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ banner */
+    background-position: center; /* Đặt vị trí của ảnh nền ở giữa */
+    height: 300px; /* Chiều cao của banner, bạn có thể thay đổi giá trị này theo ý muốn */
+}
+
+.banner-content {
+    background-color: rgba(204, 204, 204, 0.1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-custom {
+    color: #fff; /* Màu chữ */
+}

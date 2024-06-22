@@ -1,0 +1,137 @@
+// 20240610234505
+// http://localhost:8080/feedback
+
+{
+  "_embedded": {
+    "feedbacks": [
+      {
+        "feedbackId": 1,
+        "feedbackType": 1,
+        "targetId": 2,
+        "rating": 5,
+        "content": "nd 1",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/1"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/1"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/1/user"
+          }
+        }
+      },
+      {
+        "feedbackId": 2,
+        "feedbackType": 2,
+        "targetId": 3,
+        "rating": 3,
+        "content": "nd 2",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/2"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/2"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/2/user"
+          }
+        }
+      },
+      {
+        "feedbackId": 3,
+        "feedbackType": 1,
+        "targetId": 4,
+        "rating": 2,
+        "content": "nd 3",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/3"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/3"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/3/user"
+          }
+        }
+      },
+      {
+        "feedbackId": 4,
+        "feedbackType": 1,
+        "targetId": 2,
+        "rating": 4,
+        "content": "nd 4",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/4"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/4"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/4/user"
+          }
+        }
+      },
+      {
+        "feedbackId": 5,
+        "feedbackType": 2,
+        "targetId": 5,
+        "rating": 5,
+        "content": "nd 5",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/5"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/5"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/5/user"
+          }
+        }
+      },
+      {
+        "feedbackId": 6,
+        "feedbackType": 1,
+        "targetId": 6,
+        "rating": 3,
+        "content": "nd 6",
+        "time": "2024-05-18T14:08:45",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8080/feedback/6"
+          },
+          "feedback": {
+            "href": "http://localhost:8080/feedback/6"
+          },
+          "user": {
+            "href": "http://localhost:8080/feedback/6/user"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/feedback?page=0&size=20"
+    },
+    "profile": {
+      "href": "http://localhost:8080/profile/feedback"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 6,
+    "totalPages": 1,
+    "number": 0
+  }
+}
